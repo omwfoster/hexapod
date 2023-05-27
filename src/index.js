@@ -10,7 +10,7 @@ const App = React.lazy(() =>
 
 ReactDOM.render(
     <React.StrictMode>
-        <Suspense fallback={<p>Mithi's Bare Minimum Hexapod Robot Simulator...</p>}>
+        <Suspense fallback={<p>Mithi's Bare Minimum - forked and bombed.</p>}>
             <App />
         </Suspense>
     </React.StrictMode>,
