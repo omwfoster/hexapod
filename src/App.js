@@ -23,7 +23,7 @@ class App extends React.Component {
      * * * * * * * * * * * * * */
 
     onPageLoad = pageName => {
-        document.title = pageName + " - Mithi's Bare Minimum Hexapod Robot Simulator"
+        document.title = pageName + " - Mithi's Bare Minimum - forked and bombed"
         gtag("config", "UA-170794768-1", {
             page_path: window.location.pathname + window.location.search,
         })
